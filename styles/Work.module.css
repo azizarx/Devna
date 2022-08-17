@@ -1,0 +1,208 @@
+.section{
+    position: relative;
+    block-size: 140vh;
+    }
+
+  .work > h1{
+    position: relative;
+    top: 20%;
+    left: 13%;
+    overflow: hidden;
+  }
+  
+  .wordart {
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    top:11px;
+    position: relative;
+  }
+  
+  .wordart.italic-outline {
+      transform: scale(1, 1.3);
+      -webkit-transform: scale(1, 1.3);
+      -moz-transform: scale(1, 1.3);
+      -o-transform: scale(1, 1.3);
+      -ms-transform: scale(1, 1.3);
+  }
+  
+  .wordart.italic-outline .text {
+      letter-spacing: -0.01em;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      color: #222831;
+      -webkit-text-stroke: 0.01em #00ADB5;
+      filter: progid:DXImageTransform.Microsoft.Glow(Color=#222831, Strength=1);
+      text-shadow: 0.03em 0.03em 0 #222831;
+  }
+  
+  .wordart {
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .wordart2 {
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .wordart2.italic-outline2 {
+      transform: scale(1, 1.3);
+      -webkit-transform: scale(1, 1.3);
+      -moz-transform: scale(1, 1.3);
+      -o-transform: scale(1, 1.3);
+      -ms-transform: scale(1, 1.3);
+  }
+  
+  .wordart2.italic-outline2 .text {
+      letter-spacing: -0.01em;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      color: #00ADB5;
+      -webkit-text-stroke: 0.01em #00ADB5;
+      filter: progid:DXImageTransform.Microsoft.Glow(Color=#222831, Strength=1);
+      text-shadow: 0.03em 0.03em 0 #222831;
+  }
+  .text-lvl1{
+    position: relative;
+    left: 70%;
+    bottom: 25%;
+  }
+  
+  .smol-text{
+    font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  
+  letter-spacing: 0.15px;
+  
+  /* brand/primary */
+  
+  color: #00ADB5;
+  
+  }
+  .level1{
+    width: 99vw;
+    height: 30%;
+  }
+  .second-p{
+    padding-left:15px ;
+  }
+  
+  
+  .level2{
+    width: 99vw;
+    height: 650px;
+    overflow: hidden;
+  }
+  
+  .square1{
+    position: relative;
+    width: 400px;
+    height: 175px;
+    background-color: #00ADB5;
+    border: 3px solid #FFFFFF66;
+    top: 7%;
+    left: 15%;
+    border-radius: 10px;
+    z-index: 3;
+  
+  }
+  .square2{
+    position: relative;
+    width: 500px;
+    height: 390px;
+    background-color: #00ADB5;
+    border-radius: 10px;
+    left:40%;
+    bottom: 25%
+  }
+  .text-under-box1{
+    font-size: 70px;
+    position: relative;
+    top: 12%;
+    left: 17%;
+    font-style: italic;
+    color: white;
+      font-family: sans-serif;
+  }
+  .square3{
+    position: relative;
+    width: 270px;
+    height: 170px;
+    box-sizing: border-box;
+    background: #54995A;
+    border-radius: 10px;
+    bottom: 40%;
+    left: 18%;
+  }
+  .text-under-box2{
+    position: relative;
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 94px;
+    /* identical to box height */ 
+    letter-spacing: -1.78916px; 
+    color: #E6EED6;
+    bottom: 45%;
+    left: 37%;
+  }
+  .level3{
+    width: 99vw;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .square1-2{
+    position: relative;
+    width: 520px;
+    height: 300px;
+    background-color: #4D4C89;
+    opacity: 0.8;
+    border-radius: 10px;
+    left: 15%;
+  }
+  .square2-2{
+    position: relative;
+    width: 520px;
+    height: 344px;
+    background-color: #9C8326;
+    left: 37%;
+    bottom: 30%;
+    border-radius: 10px;
+  }
+  .text-under-box5{
+    position: relative;
+    font-family: Work Sans;
+    font-size: 91px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 120px;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color:white;
+    bottom: 50%;
+    left: 20%;
+  
+  }

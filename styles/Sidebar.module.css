@@ -1,0 +1,17 @@
+.Sidebar {
+    top:0%;
+    height: 100vh;
+    width: 7%;
+    background-color: #222831;
+    overflow-x: hidden;
+    border-right: 1px solid #00ADB5;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+  }
+  .logo{
+    height: 37px;
+    justify-content: top;
+    position: relative;
+    
+  }

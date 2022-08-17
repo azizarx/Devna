@@ -1,0 +1,44 @@
+.nav {
+    height : 80px;
+    width: 100%;
+    padding : 10px;
+    background: #222831;
+    top:0%;
+    left: 10%;
+    position: sticky;
+    z-index: 100;
+}
+.nav ul{
+   
+    display:flex;
+    justify-content: right;
+    align-items:flex-end;
+    list-style: none;
+    margin-right: 200px;
+}
+
+.nav ul li a {
+    color: #E6EED6;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Helvetica Now Text ';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 113%;
+    letter-spacing: -0.025em;
+    margin-left: 200px;
+}
+.H1 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 25%;
+}
+.logo{
+    position: relative;
+    right: 38%;
+    padding-top:10px;
+    padding-left: 10px;
+    
+}
