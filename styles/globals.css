@@ -3,10 +3,12 @@
 @tailwind utilities;
 html,
 body {
-  width: 99vw;
-  height: 99vh;
+  width: 100vw;
+  height: 100vh;
 scroll-behavior: smooth;
-scroll-snap-type: y mandatory;
+overflow-x: hidden;
+    color: #E6EED6;
+    background: #222831;
 }
 body::-webkit-scrollbar{
   width: 0.25rem;

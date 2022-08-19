@@ -7,8 +7,7 @@ import ContactTitle from '../images/ContactTitle.png'
 const Contact = () => {
   return (
     <section id='Contact' className={styles.section}>
-      <div className={styles.cover}>
-      </div>
+    
       <div className={styles.contactTitle}>
         <Image
             src={ContactTitle}

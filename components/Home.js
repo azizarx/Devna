@@ -22,12 +22,12 @@ const Part1 = () => {
         src={Hire}
         alt='btn'
         /></a>
-        <div className={styles.arrow1}>
+       {/*<div className={styles.arrow1}>
         <Image
         src={arrow1}
         alt='arrow'
         />
-        </div>
+        </div>*/} 
         </div>
       <a href='#Services'> <div className={styles.OurServices}>
           <Image 
