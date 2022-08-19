@@ -3,7 +3,7 @@ import linkedinLogo from "../images/linkedin.png"
 import facebookLogo from "../images/facebook.png"
 import Image from 'next/image'
 import ContactTitle from '../images/ContactTitle.png'
-import top from '../images/top.png'
+{/*import top from '../images/top.png'*/}
 const Contact = () => {
   return (
     <section id='Contact' className={styles.section}>
@@ -38,7 +38,7 @@ const Contact = () => {
                 <a href="#"><Image src={facebookLogo} alt='facebook logo'/></a>
                 <a href="#"><Image src={linkedinLogo} alt='linkedin logo' /></a>
             </div>
-           <div className={styles.top}>
+          {/*<div className={styles.top}>
               <a href='#'>
 
              <Image
@@ -46,7 +46,7 @@ const Contact = () => {
               alt='top'
               />
              </a>
-            </div>
+            </div>*/ } 
 </section>
   )
 }
