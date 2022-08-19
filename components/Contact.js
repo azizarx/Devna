@@ -3,7 +3,7 @@ import linkedinLogo from "../images/linkedin.png"
 import facebookLogo from "../images/facebook.png"
 import Image from 'next/image'
 import ContactTitle from '../images/ContactTitle.png'
-/*import top from '../images/top.png'*/
+import top from '../images/top.png'
 const Contact = () => {
   return (
     <section id='Contact' className={styles.section}>
@@ -17,7 +17,8 @@ const Contact = () => {
             />
       </div>
             <div className={styles.adventure}>
-            Give us a<br/> new<br/>adventure
+            Give us a<br/> new<br/>adventure<br/>
+            this Section<br/> is not done yet..
             </div>
             <div className={styles.info}>
                 <div className={styles.mail}>
@@ -37,14 +38,14 @@ const Contact = () => {
                 <a href="#"><Image src={facebookLogo} alt='facebook logo'/></a>
                 <a href="#"><Image src={linkedinLogo} alt='linkedin logo' /></a>
             </div>
-            <div className={styles.top}>
-           {  /* <a href='#'>
+           <div className={styles.top}>
+              <a href='#'>
 
              <Image
               src={top}
               alt='top'
               />
-             </a> */}
+             </a>
             </div>
 </section>
   )

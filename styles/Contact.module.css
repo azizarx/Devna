@@ -213,7 +213,7 @@ text-align: left;
     height:10%;
     
 }
-/*.top{
+.top{
     width: fit-content;
     padding: 10px;
     position: relative;
@@ -225,6 +225,5 @@ text-align: left;
 
 }
 .top:hover{
-
     background-color: rgb(0,173,181);
-}*/
+}

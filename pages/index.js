@@ -12,6 +12,7 @@ export default function Root () {
     <>
     <Head>
       <title>Devna</title>
+      <link rel="icon" type="image/x-icon" src></link>
     </Head>
     <Main/>
      <Nav/>
