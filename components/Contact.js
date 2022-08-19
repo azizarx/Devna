@@ -39,12 +39,13 @@ const Contact = () => {
                 <a href="#"><Image src={linkedinLogo} alt='linkedin logo' /></a>
             </div>
             <div className={styles.top}>
-             <a href='#'>
-              <Image
+           {  /* <a href='#'>
+
+             <Image
               src={top}
               alt='top'
               />
-              </a> 
+             </a> */}
             </div>
 </section>
   )
