@@ -10,6 +10,7 @@ on the century.
 <a href='#Contact'> <div className={styles.teamarrow}>
           <Image 
           src={ourArrow}
+          alt='arrow'
           />
         </div> </a>
     </section>

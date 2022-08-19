@@ -20,6 +20,7 @@ const Main = () => {
      <Link href='#Home'>
       <a><Image
       src={ButtonArrow}
+      alt='button arrow'
       />
       <p className={styles.arrowText}> <br/> Scroll Down</p>
       </a>

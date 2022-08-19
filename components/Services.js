@@ -36,6 +36,7 @@ const Services = () => {
         <a href='#About'> <div className={styles.About}>
           <Image 
           src={About}
+          alt='About'
           />
         </div> </a>
     </section>

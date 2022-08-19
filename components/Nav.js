@@ -6,7 +6,7 @@ import Image from 'next/image'
   return (
     <nav className={styles.nav} id='p'>
         <ul>
-            <li className={styles.logo}><a href='#'><Image src={logo} /></a></li>
+            <li className={styles.logo}><a href='#'><Image src={logo} alt='devna logo' /></a></li>
             <li>
                 <Link href='#Home'>Home</Link>
             </li>

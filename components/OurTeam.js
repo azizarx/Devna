@@ -9,6 +9,7 @@ const OurTeam = () => {
 <a href='#Team'> <div className={styles.teamarrow}>
           <Image 
           src={team}
+          alt='arrow'
           />
         </div> </a>
     </section>

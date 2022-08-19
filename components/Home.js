@@ -20,16 +20,19 @@ const Part1 = () => {
         <div className={styles.btn_arrow}>
         <a className={styles.btn1} href='#Contact'><Image
         src={Hire}
+        alt='btn'
         /></a>
         <div className={styles.arrow1}>
         <Image
         src={arrow1}
+        alt='arrow'
         />
         </div>
         </div>
       <a href='#Services'> <div className={styles.OurServices}>
           <Image 
           src={OurServices}
+          alt='arrow'
           />
         </div> </a>
    </section>
