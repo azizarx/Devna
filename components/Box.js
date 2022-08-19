@@ -4,7 +4,7 @@ function Box (props) {
     const {logo, title, paragraph} = props;
     return(
         <div className={styles.box}>
-           <div className={styles.imglogo}><Image src={logo} /></div> 
+           <div className={styles.imglogo}><Image src={logo} alt='dev' /></div> 
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.paragraph}>{paragraph}</p>
         </div>
