@@ -7,7 +7,7 @@ import Main from '../components/Main'
 import OurWorks from '../components/OurWorks'
 import OurTeam  from '../components/OurTeam'
 import OurTeam2 from '../components/OurTeam2'
-export default function () {
+export default function Root () {
   return (
     <>
     <Head>

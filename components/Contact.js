@@ -14,6 +14,7 @@ const Contact = () => {
             src={ContactTitle}
             width={9000}
             height={1400}
+            alt='contact'
             />
       </div>
             <div className={styles.adventure}>
@@ -34,13 +35,14 @@ const Contact = () => {
                 </div>
             </div>
             <div className={styles.social}>
-                <a href="#"><Image src={facebookLogo}/></a>
-                <a href="#"><Image src={linkedinLogo} /></a>
+                <a href="#"><Image src={facebookLogo} alt='facebook logo'/></a>
+                <a href="#"><Image src={linkedinLogo} alt='linkedin logo' /></a>
             </div>
             <div className={styles.top}>
              <a href='#'>
               <Image
               src={top}
+              alt='top'
               />
               </a> 
             </div>

@@ -4,6 +4,7 @@ import arrow1 from '../images/arrow1.png'
 import OurServices from '../images/OurServices.png'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 const Part1 = () => {
   return (
@@ -17,7 +18,7 @@ const Part1 = () => {
         />
         </div>
         <div className={styles.btn_arrow}>
-        <a className={styles.btn1} href='/#part3'><Image
+        <a className={styles.btn1} href='#Contact'><Image
         src={Hire}
         /></a>
         <div className={styles.arrow1}>

@@ -6,6 +6,10 @@ block-size: 100vh;
 .textCyan{
   color: #00ADB5;
 }
+.Devnaword{
+  color: #00ADB5;
+  font-style: italic;
+}
 /*Section 1*/
 .home {
   position: absolute;
@@ -99,9 +103,85 @@ top: 10%
   position: relative;
  width: 60px;
  top: -90%;
- right: -2%;
+ left: 2.5%;
 }
 /*Services*/
+.boxcontainer{
+  position: relative;
+  display: flex;
+  gap: 113px;
+  width:99vw;
+  justify-content: center;
+  align-items: center;
+  bottom: 22%;
+}
+.Arrow2{
+  width: fit-content;
+ position: relative;
+ left:31.5%;
 
+}
+.OurS{
+  width: 40%;
+  position: relative;
+  left: 15%;
+}
+.nam{
+  position: relative;
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.25px;
+left: 13%;
+bottom: 30%;
+width: fit-content;
+}
+
+.what{
+  position: relative;
+  left: 60%;
+  bottom:15%;
+  width: 25%;
+  height: fit-content;
+}
+.About{
+  position: relative;
+  bottom: 42.5%;
+  left: 2.5%;
+  width: fit-content;
+}
+/*Team1*/
+.teamtext{
+width: fit-content;
+position: relative;
+top: 11%;
+left: 15%;
+font-family: 'Work Sans';
+font-weight: 500;
+font-size: 102px;
+line-height: 120px;
+letter-spacing: -1.5px;
+}
+.teamarrow{
+  width: fit-content;
+  position: relative;
+  top: 13%;
+  left: 2.5%;
+}
+/*team2*/
+.teamtext2{
+  width: fit-content;
+  position: relative;
+  top: 11%;
+  left: 15%;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 102px;
+  line-height: 120px;
+  letter-spacing: -1.5px;
+  font-style: bold;
+  }
 
 /*Contact*/

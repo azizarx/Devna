@@ -1,5 +1,5 @@
 import styles from '../styles/Work.module.css'
-export default function(){
+export default  function OurWork(){
     return(
         <section className={styles.section}>
             <div className={styles}>

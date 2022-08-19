@@ -1,0 +1,29 @@
+.box{
+    height: 288px;
+    width: 336px;
+    border-radius: 17.34px;
+    color: #00ADB5;
+    font-family: sans-serif;
+    border: 1px solid #00ADB5;
+    background-color: #222831;
+  }
+  .imglogo{
+    width: fit-content;
+    position: relative;
+    top:10%;
+    right: 10%;
+    left: 10%;
+    bottom: 10%;
+    padding-bottom: 12px ;
+  }
+  .title{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .paragraph{
+    padding: 0 15px;
+    font-weight: 500;
+    font-size: 21px;
+  }
+  
