@@ -3,7 +3,7 @@ import linkedinLogo from "../images/linkedin.png"
 import facebookLogo from "../images/facebook.png"
 import Image from 'next/image'
 import ContactTitle from '../images/ContactTitle.png'
-import top from '../images/top.png'
+/*import top from '../images/top.png'*/
 const Contact = () => {
   return (
     <section id='Contact' className={styles.section}>
