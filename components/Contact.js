@@ -18,7 +18,6 @@ const Contact = () => {
       </div>
             <div className={styles.adventure}>
             Give us a<br/> new<br/>adventure<br/>
-            this Section<br/> is not done yet..
             </div>
             <div className={styles.info}>
                 <div className={styles.mail}>
