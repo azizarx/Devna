@@ -7,8 +7,9 @@ body {
   height: 100vh;
 scroll-behavior: smooth;
 overflow-x: hidden;
-    color: #E6EED6;
-    background: #222831;
+
+  color: #E6EED6;
+  background: #222831;
 }
 body::-webkit-scrollbar{
   width: 0.25rem;
