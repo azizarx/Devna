@@ -2,6 +2,9 @@
 .section{
 position: relative;
 block-size: 100vh;
+scroll-snap-type: y mandatory;
+scroll-snap-align: center;
+scroll-behavior: smooth;
 }
 .textCyan{
   color: #00ADB5;
