@@ -7,7 +7,9 @@ body {
   height: 100vh;
 scroll-behavior: smooth;
 overflow-x: hidden;
-
+scroll-snap-type: y mandatory;
+scroll-snap-align: center;
+scroll-behavior: smooth;
   color: #E6EED6;
   background: #222831;
 }

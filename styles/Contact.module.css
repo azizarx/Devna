@@ -152,6 +152,9 @@ text-align: left;
     position: relative;
     background-color: white;
     color: #000000;
+    scroll-snap-type: y mandatory;
+scroll-snap-align: center;
+scroll-behavior: smooth;
     }
 .adventure{
     font-family: sans-serif;
